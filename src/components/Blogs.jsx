@@ -3,6 +3,7 @@ import { connect } from "react-redux";
 import { addTodo, deleteTodo } from "../actions/actions";
 
 const Blogs = (props) => {
+  console.log(props);
   return (
     <div>
       <form
